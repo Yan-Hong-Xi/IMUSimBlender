@@ -9,7 +9,8 @@ A Blender add-on for simulating and visualizing IMU data.
 
 2. **Verify Blender Setup:**
    - Ensure that `Blender_v3.0stable_WithCUDA_addSC2Fisheye_202201251123/Release/blender.exe` can run properly.
-   - Confirm that it supports custom CUDA and fisheye properties.
+   - Ensure that the `gnss-ins-sim` and `pandas` packages are installed.
+     
 
 ## Step 2: Running the Simulation
 
