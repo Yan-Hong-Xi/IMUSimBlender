@@ -21,7 +21,7 @@ A Blender add-on for simulating and visualizing IMU data.
    - Open the Blender model located in `Blender_Scene/RenderCamImgAccordingToCameraTrajectoryAtTxtFile_fisheye.blend`.
 
 3. **Register Panel:**
-   - ![Register Panel](document/1.2heck_thirdpart_canrun.png)  
+   - ![Register Panel](document/2.3register_panel.png)  
 
 3. **Check Configuration:**
    - Ensure that `config.ini` and other necessary configuration files are correctly set up.
