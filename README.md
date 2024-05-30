@@ -35,8 +35,10 @@ A Blender add-on for simulating and visualizing IMU data.
    - ![Run GenSimIMU](document/2.4GenSimIMUStep.png)
    - Descriptions of other buttons and the fail-safe mechanism.   
    - ![Else Button](document/2.4GenSimIMU.png)
-6. **Adjust Scene and Parameters:**
-   - Make any necessary adjustments to the scene and simulation parameters as required.
+
+6. **Create Motion Paths:**
+   - Set up the pose animation and plot the path using the generated `/Blender_Scene/Output_S/Resample_blender.csv`.
+   - ![Run CreateMotionPaths](document/2.5Setanimation_with_pose.png)
 
 ## Additional Tools
 
