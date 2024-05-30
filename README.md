@@ -20,13 +20,17 @@ A Blender add-on for simulating and visualizing IMU data.
 2. **Load the Blender Model:**
    - Open the Blender model located in `Blender_Scene/RenderCamImgAccordingToCameraTrajectoryAtTxtFile_fisheye.blend`.
 
-3. **Register Panel:**
+3. **Open Toggle System Console:**
+   - In Blender, open the system console by navigating to `Window > Toggle System Console`.
+   - ![Register Panel](document/2.3opentogglesystemconsole.png)  
+
+4. **Register Panel:**
    - ![Register Panel](document/2.3register_panel.png)  
 
-3. **Generate IMU Data:**
+5. **Generate IMU Data:**
    - Generate IMU data according to `config.ini` and other necessary configuration files.
 
-4. **Adjust Scene and Parameters:**
+6. **Adjust Scene and Parameters:**
    - Make any necessary adjustments to the scene and simulation parameters as required.
 
 ## Additional Tools
