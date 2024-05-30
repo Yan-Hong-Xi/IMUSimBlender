@@ -42,7 +42,7 @@ A Blender add-on for simulating and visualizing IMU data.
 
 7. **Interval Render Animation:**
    - Execute `Interval Render Animation` to render images from both camera into `/Blender Scene/RenderedImages`.
-   - ![Run CreateMotionPaths](document/2.5Setanimation_with_pose.png)
+   - ![Run Interval Render Animation](document/2.6intervalrenderanimation.png)
 
 ## Additional Tools
 
