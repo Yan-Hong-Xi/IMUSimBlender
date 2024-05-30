@@ -25,7 +25,7 @@ A Blender add-on for simulating and visualizing IMU data.
    - ![Register Panel](document/2.3opentogglesystemconsole.png)  
 
 4. **Register Instance Panel:**
-   - To register the panel, first run the `SimIMU_Panel.py` script.
+   - To register the panel by navigating to `Scripting > SimIMU_Panel.py`, first run the `SimIMU_Panel.py` script.
    - After running the script, you will find the Script Runner Panel in the right sidebar of the 3D viewport.
    - ![Register Panel](document/2.3register_panel.png)  
 
