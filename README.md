@@ -40,6 +40,10 @@ A Blender add-on for simulating and visualizing IMU data.
    - Set up the pose animation and plot the path using the generated `/Blender_Scene/Output_S/Resample_blender.csv`.
    - ![Run CreateMotionPaths](document/2.5Setanimation_with_pose.png)
 
+7. **Interval Render Animation:**
+   - Execute `Interval Render Animation` to render images from both camera into `/Blender Scene/RenderedImages`.
+   - ![Run CreateMotionPaths](document/2.5Setanimation_with_pose.png)
+
 ## Additional Tools
 
 - **Merge Video Tool:**
