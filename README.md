@@ -30,8 +30,8 @@ A Blender add-on for simulating and visualizing IMU data.
    - ![Register Panel](document/2.3register_panel.png)  
 
 5. **Generate IMU Data:**
-   - Pressing the home button will navigate the document to `config.ini`.
-   - Pressing "Gen Sim IMU" will generate simulation data in the `Output_S` directory.
+   - Pressing the `home` button will navigate the document to `config.ini`.
+   - Pressing `Gen Sim IMU` will generate simulation data in the `Output_S` directory.
    
 6. **Adjust Scene and Parameters:**
    - Make any necessary adjustments to the scene and simulation parameters as required.
