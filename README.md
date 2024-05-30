@@ -23,8 +23,8 @@ A Blender add-on for simulating and visualizing IMU data.
 3. **Register Panel:**
    - ![Register Panel](document/2.3register_panel.png)  
 
-3. **Check Configuration:**
-   - Ensure that `config.ini` and other necessary configuration files are correctly set up.
+3. **Generate IMU Data:**
+   - Generate IMU data according to `config.ini` and other necessary configuration files.
 
 4. **Adjust Scene and Parameters:**
    - Make any necessary adjustments to the scene and simulation parameters as required.
