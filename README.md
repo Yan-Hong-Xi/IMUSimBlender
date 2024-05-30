@@ -5,10 +5,10 @@ A Blender add-on for simulating and visualizing IMU data.
 
 1. **Extract Blender Archive:**
    - Navigate to the `Blender_v3.0stable_WithCUDA_addSC2Fisheye_202201251123` directory.
-   - Extract the `Release.7z` archive to a suitable directory.
+   - Extract the `Release.7z` archive directly into the `Blender_v3.0stable_WithCUDA_addSC2Fisheye_202201251123` directory.
 
 2. **Verify Blender Setup:**
-   - Ensure that the extracted Blender can run properly.
+   - Ensure that `Blender_v3.0stable_WithCUDA_addSC2Fisheye_202201251123/Release/blender.exe` can run properly.
    - Confirm that it supports custom CUDA and fisheye properties.
 
 ## Step 2: Running the Simulation
