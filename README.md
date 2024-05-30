@@ -22,7 +22,7 @@ A Blender add-on for simulating and visualizing IMU data.
 
 3. **Open Toggle System Console:**
    - In Blender, open the system console by navigating to `Window > Toggle System Console`.
-   - ![Register Panel](document/2.3opentogglesystemconsole.png)  
+   - ![Open Toggle](document/2.3opentogglesystemconsole.png)  
 
 4. **Register Instance Panel:**
    - To register the panel by navigating to `Scripting > SimIMU_Panel.py`, first run the `SimIMU_Panel.py` script.
@@ -32,7 +32,9 @@ A Blender add-on for simulating and visualizing IMU data.
 5. **Generate IMU Data:**
    - Pressing the `home` button will navigate the document to `config.ini`.
    - Pressing `Gen Sim IMU` will generate simulation data in the `Output_S` directory.
-   
+   - ![Run GenSimIMU](document/2.4GenSimIMUStep.png)
+   - Descriptions of other buttons and the fail-safe mechanism.   
+   - ![Else Button](document/2.4GenSimIMU.png)
 6. **Adjust Scene and Parameters:**
    - Make any necessary adjustments to the scene and simulation parameters as required.
 
