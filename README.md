@@ -47,13 +47,30 @@ A Blender add-on for simulating and visualizing IMU data.
 ## Additional Tools
 
 - **Merge Video Tool:**
-  - Located in the `merge_video_tool` directory, containing `ffmpeg.exe` and `merge_video.py`.
-- **SISEffectDemo:**
-  - Includes raw and processed video files for the SIS effect demonstration.
-
+  - Copy `ffmpeg.exe` and `merge_video.py` from the `merge_video_tool` directory to `/Blender_Scene/RenderedImages`.
+  - Open the Command Prompt (cmd).
+  - Change directory to `/Blender_Scene/RenderedImages`:
+     ```cmd
+     cd [your folder path]\Blender_Scene\RenderedImages
+     ```
+  - Run the following commands to create videos from the rendered images at 30 frames per second:
+     ```cmd
+     ffmpeg -y -framerate 30 -i Camera_Front_%d.jpg -c:v mpeg4 -q:v 5 Camera_Front.avi
+     ffmpeg -y -framerate 30 -i Camera_Rear_%d.jpg -c:v mpeg4 -q:v 5 Camera_Rear.avi
+     ```
+  - First, ensure that Python is installed on your system and that OpenCV for Python is also installed. If both are installed, run the following command in cmd:
+    ```cmd
+    python merge_video.py
+    ```
+  
 ## Verification
 
 - **VerifyGroundTrustIMUData:**
-  - Contains data files (`Acc.csv`, `Gyro.csv`, `Mag.csv`, `Quat.csv`) and Python scripts for verification.
+  - Contains data files (`/VerifyGroundTrustIMUData/Acc.csv`, `/VerifyGroundTrustIMUData/Gyro.csv`, `/VerifyGroundTrustIMUData/Mag.csv`, `/VerifyGroundTrustIMUData/Quat.csv`) generated from IMUSimBlender's virtual IMU data, and Python scripts (`/VerifyGroundTrustIMUData/FilterCompare.py`) for verification.
+
+## Attachments
+
+- **SISEffectDemo:**
+  - `/SISEffectDemo` includes raw and processed video files for the SIS effect demonstration.
 
 For further assistance, feel free to reach out.
